@@ -12,7 +12,8 @@ for part in title_parts:
 st.write("Explore Insights from the World Happiness Report Dataset with Interactive Charts.")
 
 # Load the data
-df = pd.read_csv('/Users/mona/Desktop/Northeastern/1st Semester/6600/Project/Project-02/happiness_converted.csv')
+#df = pd.read_csv('/Users/mona/Desktop/Northeastern/1st Semester/6600/Project/Project-02/happiness_converted.csv')
+df = pd.read_csv('happiness_converted.csv')
 
 # Interactive Filters
 st.sidebar.header("Filters")
